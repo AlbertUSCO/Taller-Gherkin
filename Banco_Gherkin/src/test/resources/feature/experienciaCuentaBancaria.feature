@@ -9,15 +9,12 @@ Característica: Cuenta_de_ahorro
   Escenario:Apertura de cuenta
     Dado que el usuario ingresó a la plataforma de sucursal virtual
     Cuando el usuario selecciona la opción abrir cuenta de ahorros
-    Entonces se mostrara los planes disponibles a elegir
-    Y posteriormente el usuario debera ingresar sus datos personales
+    Entonces se mostrara los planes disponibles y la sección para ingresar los datos personales
 
   Escenario: Cerrar una cuenta
-    Dado que el usuario ingresó con su cuenta a la plataforma de sucursal virtual
-    Y tiene una cuenta de ahorros creada
-    Cuando el usuario selecciona la opción eliminar
-    Entonces se mostrara mensaje de confirmación
-    Y luego de confirmar se mostrara un mensaje indicando que la cuenta de ahorros fue borrada
+    Dado que el usuario ingresó con su cuenta a la plataforma de sucursal virtual teniendo una cuenta de ahorros
+    Cuando el usuario selecciona borrar la cuenta de ahorros
+    Entonces se mostrara un mensaje indicando que la cuenta de ahorros fue borrada
 
   Escenario: Pago de servicios
     Dado Que el cliente se situó en la opción de pago de servicios
