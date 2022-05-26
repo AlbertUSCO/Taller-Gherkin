@@ -30,12 +30,12 @@ Característica: Cuenta_de_ahorro
     Y Saldo disponible mermara según la cantidad a retirar
 
   Escenario: Transferencia a otra cuenta
-    Dado  el usuario navego hasta la seccion de transferencia y e hizo la solicitud  para ingresar
-    Cuando  cuando el usuario selecciona la realizar transferencia a una cuenta correspondiente
-    Entonces  Se mostrara el bauching correspodiente cuando se realice la tranferencia a otra cuenta y un mensaje
-    indicado transaccion exitosa
+    Dado  El cliente  navego hasta la seccion de transferencia y e hizo la solicitud  para ingresar
+    Cuando  suministre la informacion de la transferencia
+    Entonces  Se mostrara  un mensaje  indicado transaccion exitosa
+
 
   Escenario: Solicitud de certificados
-    Dado   El usuario navego e ingreso a la opcion para la solictud de su certificado bancario
-    Cuando  seleciona la opcion certificado de estado de cuenta y suministra la informacion
+    Dado   El usuario navego e ingreso a la opcion para la solicitud de su certificado bancario
+    Cuando  seleciona la opcion  certificado de estado de cuenta y suministra la informacion
     Entonces se le enviara un mensaje indicando que autorice y revise su bandeja de correo que estara su certificado
