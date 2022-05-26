@@ -13,7 +13,7 @@ Característica: Cuenta_de_ahorro
 
   Escenario: Cerrar una cuenta
     Dado que el usuario ingresó con su cuenta a la plataforma de sucursal virtual teniendo una cuenta de ahorros
-    Cuando el usuario selecciona borrar la cuenta de ahorros
+    Cuando el usuario selecciona borrar la cuenta de ahorros y confirma
     Entonces se mostrara un mensaje indicando que la cuenta de ahorros fue borrada
 
   Escenario: Pago de servicios
