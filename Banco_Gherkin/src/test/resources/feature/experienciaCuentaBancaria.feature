@@ -33,11 +33,11 @@ Característica: Cuenta_de_ahorro
     Y Saldo disponible mermara segun la cantidad a retirar
 
   Escenario: Transferencia a otra cuenta
-    Dado
-    Cuando
-    Entonces
+    Dado : El usuario desea transferir el dinero que tiene en su cuenta y que llegue a otra cuenta
+    Cuando : El usuario suministre su clave y la informacion pertinente sobre la cuenta a hacer la tranferencia
+    Entonces :  Se mostrara el bauching correspodiente cuando se realice la tranferencia a otra cuenta
 
   Escenario: Solicitud de certificados
-    Dado
-    Cuando
-    Entonces
+    Dado :  El usuario desea un certificado del estado de  su cuenta de ahorros
+    Cuando  El usuario ingrese la informacion que desea que se suministre en el certificado correspondiente
+    Entonces Se enviara el cetificado con la informacion correspondiente solicitada por el usuario
