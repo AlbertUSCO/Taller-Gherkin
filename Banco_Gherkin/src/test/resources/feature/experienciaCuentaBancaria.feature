@@ -17,14 +17,17 @@ Característica: Cuenta_de_ahorro
     Entonces
 
   Escenario: Pago de servicios
-    Dado
-    Cuando
-    Entonces
+    Dado Que el cliente se situo en la opcion de pago de servicios
+    Y Tiene un saldo disponible
+    Cuando Selecciona el servicio a pagar
+    Entonces El costo del servicio será restado del saldo disponible
 
   Escenario: Retiro de dinero por corresponsal
-    Dado
-    Cuando
-    Entonces
+    Dado Que el cliente se situo en la opcion de retiros
+    Y Tiene un saldo disponible superior al monto minimo de retiro
+    Cuando Selecciona la cantidad a retirar
+    Entonces Se le asignara un codigo de retiro
+    Y Saldo disponible mermara segun la cantidad a retirar
 
   Escenario: Transferencia a otra cuenta
     Dado
